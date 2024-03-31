@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "eu.shoroa",
+    "module": "smllk",
+    "version": "1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smllk-1.1-SNAPSHOT.jar",
+          "url": "smllk-1.1-SNAPSHOT.jar",
+          "size": 204115,
+          "sha512": "7b554bdf905947dcb22c291d5c1e0cf5b88c6c57384cb4d1122a561e28399e85ede46ed4e23988ffacd3eeb1241fa56ad3f5210cc0492e0298cb074e06a8d217",
+          "sha256": "440711eacb20afe3c7011ac87046f9832ead5c5b418d13200567fe398aafd6d8",
+          "sha1": "2f27e5e0f8cea6d79f81374de8fb55b72d2ee509",
+          "md5": "7e6d40047d60581eea9c0aeddcbd0557"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.9"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.9"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "2.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1-Beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp-jvm",
+          "version": {
+            "requires": "2.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smllk-1.1-SNAPSHOT.jar",
+          "url": "smllk-1.1-SNAPSHOT.jar",
+          "size": 204115,
+          "sha512": "7b554bdf905947dcb22c291d5c1e0cf5b88c6c57384cb4d1122a561e28399e85ede46ed4e23988ffacd3eeb1241fa56ad3f5210cc0492e0298cb074e06a8d217",
+          "sha256": "440711eacb20afe3c7011ac87046f9832ead5c5b418d13200567fe398aafd6d8",
+          "sha1": "2f27e5e0f8cea6d79f81374de8fb55b72d2ee509",
+          "md5": "7e6d40047d60581eea9c0aeddcbd0557"
+        }
+      ]
+    }
+  ]
+}
